@@ -1,7 +1,6 @@
 using Furion.DatabaseAccessor;
 using Furion.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Linq;
 using System.Security.Claims;
 
@@ -52,8 +51,9 @@ namespace Furion.Core
                     .ThenInclude(u => u.Securities)
                 .Where(u => u.Id == userId)
                 .SelectMany(u => u.Roles
-                    .SelectMany(u => u.Securities).Distinct())
-                .Select(u => u.UniqueName);
+                    .SelectMany(u => u.Securities))
+                .Select(u => u.UniqueName)
+                .Distinct();
 
             if (!securities.Contains(resourceId)) return false;
 

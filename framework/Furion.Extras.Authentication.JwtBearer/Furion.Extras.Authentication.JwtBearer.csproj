@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <version>2.8.3</version>
+    <TargetFramework>net6.0</TargetFramework>
+    <version>3.0.0-preview.4.21253.1</version>
     <Description>Furion Jwt 授权验证拓展插件。</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Furion.Extras.Web.HttpContext" Version="2.8.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.7" />
+    <PackageReference Include="Furion.Extras.Web.HttpContext" Version="3.0.0-preview.4.21253.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0-preview.4.21253.5" />
   </ItemGroup>
 
 </Project>

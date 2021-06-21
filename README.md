@@ -208,7 +208,7 @@ Although sparrow is small, it has all five internal organs. `Furion` only integr
 
 `Furion` follows the `Apache-2.0` open source agreement. You are welcome to submit `Pull Request` or `Issue`.
 
-If you want to contribute to a project, check out the [Contribution Guide](https://dotnetchina.gitee.io/furion/docs/contribute)。
+If you want to contribute to a project, check out the [Contribution Guide](https://dotnetchina.gitee.io/furion/docs/contribute).
 
 Thank you for your contribution to `Furion`.
 

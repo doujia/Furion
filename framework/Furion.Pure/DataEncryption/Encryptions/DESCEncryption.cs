@@ -4,7 +4,7 @@
 //
 // 框架名称：Furion
 // 框架作者：百小僧
-// 框架版本：2.13.2
+// 框架版本：3.0.0-preview.6.21355.2
 // 源码地址：Gitee： https://gitee.com/dotnetchina/Furion
 //          Github：https://github.com/monksoul/Furion
 // 开源协议：Apache-2.0（https://gitee.com/dotnetchina/Furion/blob/master/LICENSE）
@@ -32,7 +32,7 @@ namespace Furion.DataEncryption
         /// <returns></returns>
         public static string Encrypt(string text, string skey, bool uppercase = false)
         {
-            using var des = new DESCryptoServiceProvider();
+            using var des = DES.Create();
             byte[] inputByteArray;
             inputByteArray = Encoding.Default.GetBytes(text);
 
@@ -63,7 +63,7 @@ namespace Furion.DataEncryption
         /// <returns></returns>
         public static string Decrypt(string hash, string skey, bool uppercase = false)
         {
-            using var des = new DESCryptoServiceProvider();
+            using var des = DES.Create();
             int len;
             len = hash.Length / 2;
             var inputByteArray = new byte[len];

@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Furion.Extras.Web.HttpContext" Version="3.0.0-preview.6.21355.2" />
+    <PackageReference Include="Furion.Extras.Web.HttpContext" Version="2.13.2" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0-preview.6.21355.2" />
   </ItemGroup>
 

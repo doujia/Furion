@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <version>2.13.2</version>
+    <TargetFramework>net6.0</TargetFramework>
+    <version>3.0.0-preview.6.21355.2</version>
     <Description>Furion 数据库访问器 Dapper 插件。</Description>
   </PropertyGroup>
 

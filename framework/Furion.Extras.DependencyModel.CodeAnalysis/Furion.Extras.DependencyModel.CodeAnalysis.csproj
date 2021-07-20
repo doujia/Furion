@@ -1,17 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <version>2.14.1</version>
+    <TargetFramework>net6.0</TargetFramework>
+    <version>3.0.0-beta.1</version>
     <Description>Furion 程序集扫描和代码分析拓展插件。</Description>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Ben.Demystifier" Version="0.4.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Language" Version="5.0.8" />
-    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="3.10.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.8" />
-    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Language" Version="6.0.0-preview.6.21355.2" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.0.0-1.final" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.0-preview.6.21352.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="6.0.0-preview.6.21352.12" />
   </ItemGroup>
 
 </Project>

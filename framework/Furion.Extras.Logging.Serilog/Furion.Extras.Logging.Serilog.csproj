@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <version>3.0.0-beta.2</version>
+    <version>3.0.0-beta.3</version>
     <Description>Furion 日志记录 Serilog 插件。</Description>
   </PropertyGroup>
 
